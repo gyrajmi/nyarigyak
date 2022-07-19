@@ -95,14 +95,18 @@ p{
     justify-content: center;
 
 }
-#profile-links li{
+/* #profile-links li{
   
-   align-items: center;
-    
+   align-items: left;
+    justify-content: left;
+    float: left;
+} */
+#profile-links ul{
+   margin: 0px;
 }
-#profile-link ul{
-    text-align: center;
-    align-items: center;
+#profile-links a{
+    margin: 0px 0px 0px 0px;
+    padding: 100px;
 }
 img{
    
