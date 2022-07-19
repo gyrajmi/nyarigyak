@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="technical.css">
+    </head>
+    <body>
+        
+        <nav id="navbar">
+            <header >
+                C++ Documentation
+            </header>
+            <ul>
+                <li><a href="#C++_Tutorial" class="nav-link">C++ Tutorial</a></li>
+                <li><a href="#C++_Introduction" class="nav-link">C++ Introduction</a></li>
+                <li><a href="#C++_Getting_Started" class="nav-link">C++ Getting Started</a></li>
+                <li><a href="#C++_Syntax" class="nav-link">C++ Syntax</a></li>
+                <li><a href="#C++_Output_(Print_Text)" class="nav-link">C++ Output (Print Text)</a></li>
+                <li><a href="#C++_Comments" class="nav-link">C++ Comments</a></li>
+                <li><a href="#C++_Variables" class="nav-link">C++ Variables</a></li>
+                <li><a href="#C++_User_Input" class="nav-link">C++ User Input</a></li>
+                <li><a href="#C++_Data_Types" class="nav-link">C++ Data Types</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="C++_Tutorial">
+                <header>C++ Tutorial</header>
+                <p>
+                    C++ is a popular programming language.
+                </p>
+                <p>
+                    C++ is used to create computer programs, and is one of the most used language in game development.
+                </p>
+                <h3>
+                    Examples in Each Chapter
+                </h3>
+                <p>
+                    Our "Try it Yourself" editor makes it easy to learn C++. You can edit C++ code and view the result in your browser.
+                </p>
+                <div>
+                <p>
+                    Example
+                </p>
+                
+                    <code>
+                        #include iostream <br>
+                            using namespace std; <br>
+                           int main() {  <br>
+                            <span>cout << "Hello World!";</span> <br>
+                              return 0;<br>
+                            }
+                    </code>
+                    <button>
+                        Try it Yourself >>
+                    </button>
+               
+            </div>
+                <h4>
+                    Click on the "Run example" button to see how it works.
+                </h4>
+                <p>
+                    We recommend reading this tutorial, in the sequence listed in the left menu.
+                </p>
+                <p>
+                    C++ is an object oriented language and some concepts may be new. Take breaks when needed, and go over the examples as many times as needed.
+                </p>
+
+            </section>
+            <section class="main-section" id="C++_Introduction">
+                <header>C++ Introduction</header>
+                <h3>
+                    What is C++?
+                </h3>
+                <p>
+                    C++ is a cross-platform language that can be used to create high-performance applications.
+                </p>
+                <p>
+                    C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+                </p>
+                <p>
+                    C++ gives programmers a high level of control over system resources and memory.
+                </p>
+                <p>
+                    The language was updated 4 major times in 2011, 2014, 2017, and 2020 to C++11, C++14, C++17, C++20.
+                </p>
+                <h3>
+                    Why Use C++
+                </h3>
+                <p>
+                    C++ is one of the world's most popular programming languages.
+                </p>
+                <p>
+                    C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.
+                </p>
+                <p>
+                    C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+                </p>
+                <p>
+                    C++ is portable and can be used to develop applications that can be adapted to multiple platforms.
+                </p>
+                <p>
+                    C++ is fun and easy to learn!
+                </p>
+                <p>
+                    As C++ is close to C# and Java, it makes it easy for programmers to switch to C++ or vice versa.
+                </p>
+                <h3>
+                    Difference between C and C++
+                </h3>
+                <p>
+                    C++ was developed as an extension of C, and both languages have almost the same syntax.
+                </p>
+                <p>
+                    The main difference between C and C++ is that C++ support classes and objects, while C does not.
+                </p>
+                <h3>
+                    Get Started
+                </h3>
+                <p>
+                    This tutorial will teach you the basics of C++.
+                </p>
+                <p>
+                    It is not necessary to have any prior programming experience.
+                </p>
+            </section>
+            <section class="main-section" id="C++_Getting_Started">
+                <header>C++ Getting Started</header>
+                <h3>
+                    C++ Get Started
+                </h3>
+                <p>
+                    To start using C++, you need two things:
+                </p>
+                <ul>
+                    <li>
+                        A text editor, like Notepad, to write C++ code
+                    </li>
+                    <li>
+                        A compiler, like GCC, to translate the C++ code into a language that the computer will understand
+                    </li>
+                </ul>
+                <p>
+                    There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).
+                </p>
+                <h3>
+                    C++ Install IDE
+                </h3>
+                <p>
+                    An IDE (Integrated Development Environment) is used to edit AND compile the code.
+                </p>
+                <p>
+                    Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C++ code.
+                </p>
+                <p>
+                    <strong>Note:</strong> Web-based IDE's can work as well, but functionality is limited.
+                </p>
+                <p>
+                    We will use <strong>Code::Blocks</strong>  in our tutorial, which we believe is a good place to start.
+                </p>
+                <p>
+                    You can find the latest version of Codeblocks at
+                    <a href="https://www.codeblocks.org/downloads/binaries/">http://www.codeblocks.org/</a>
+                    . Download the mingw-setup.exe file, which will install the text editor with a compiler.
+                </p>
+                <h3>
+                    C++ Quickstart
+                </h3>
+                <p>
+                    Let's create our first C++ file.
+                </p>
+                <p>
+                    Open Codeblocks and go to <strong>File > New > Empty File.</strong>
+                </p>
+                <p>
+                    Write the following C++ code and save the file as myfirstprogram.cpp <strong>(File > Save File as):</strong>
+                </p>
+                <div>
+                    <p>
+                        myfirstprogram.cpp
+                    </p>
+                    <code>
+                        #include iostream <br>
+                            using namespace std; <br>
+                            int main() {  <br>
+                            <span> cout << "Hello World!";</span> <br>
+                              return 0;<br>
+                            }
+                    </code>
+                </div>
+                <p>
+                    Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code.
+                </p>
+                
+            </section>
+            <section class="main-section" id="C++_Syntax">
+                <header>C++ Syntax</header>
+                <h3>
+                    C++ Syntax
+                </h3>
+                <p>
+                    Let's break up the following code to understand it better:
+                </p>
+                <div>
+                    <p>
+                        Example 
+                    </p>
+                    <code>
+                        #include iostream <br>
+                           using namespace std;<br>
+                          int main() { <br>
+                             <span> cout << "Hello World!";</span> <br>
+                              return 0; <br>
+                            }
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <h3>
+                    Omitting Namespace
+                </h3>
+                <p>
+                    You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator for some objects:
+                </p>
+                <p>
+                    It is up to you if you want to include the standard namespace library or not.
+                </p>
+
+            </section>
+            <section class="main-section" id="C++_Output_(Print_Text)">
+                <header>C++ Output (Print Text)</header>
+                <h3>
+                    C++ Output (Print Text)
+                </h3>
+                <p>
+                    The cout object, together with the << operator, is used to output values/print text:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        #include iostream <br>
+                            using namespace std; <br>
+                            int main() { <br>
+                             <span>cout << "Hello World!";</span>  <br>
+                              return 0; <br>
+                            }<br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <p>
+                    You can add as many cout objects as you want. However, note that it does not insert a new line at the end of the output:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        #include iostream <br>
+                            using namespace std; <br>
+                            
+                            int main() { <br>
+                              <span>cout << "Hello World!";</span> <br>
+                              <span> cout << "I am learning C++";</span> <br>
+                              return 0; <br>
+                            } <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+            </section>
+            <section class="main-section" id="C++_Comments">
+                <header>C++ Comments</header>
+                <h3>
+                    C++ Comments
+                </h3>
+                <p>
+                    Comments can be used to explain C++ code, and to make it more readable. It can also be used to prevent execution when testing alternative code. Comments can be singled-lined or multi-lined.
+                </p>
+                <h3>
+                    Single-line Comments
+                </h3>
+                <p>
+                    Single-line comments start with two forward slashes (//).
+                </p>
+                <p>
+                    Any text between // and the end of the line is ignored by the compiler (will not be executed).
+                </p>
+                <p>
+                    This example uses a single-line comment before a line of code:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        // This is a comment <br>
+                        cout << "Hello World!"; <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <p>
+                    This example uses a single-line comment at the end of a line of code:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        cout << "Hello World!"; // This is a comment <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+            </section>
+            <section class="main-section" id="C++_Variables">
+                <header>C++ Variables</header>
+                <h3>
+                    C++ Variables
+                </h3>
+                <p>
+                    Variables are containers for storing data values.
+                </p>
+                <p>
+                    In C++, there are different types of variables (defined with different keywords), for example:
+                </p>
+                <ul>
+                    <li>
+                        int - stores integers (whole numbers), without decimals, such as 123 or -123
+                    </li>
+                    <li>
+                        double - stores floating point numbers, with decimals, such as 19.99 or -19.99
+                    </li>
+                    <li>
+                        char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+                    </li>
+                    <li>
+                        string - stores text, such as "Hello World". String values are surrounded by double quotes
+                    </li>
+                    <li>
+                        bool - stores values with two states: true or false
+                    </li>
+                </ul>
+                <h3>
+                    Declaring (Creating) Variables
+                </h3>
+                <p>
+                    To create a variable, specify the type and assign it a value:
+                </p>
+                <div>
+                    <p>
+                        Syntax
+                    </p>
+                    <code>
+                        type variableName = value; 
+                    </code>
+                </div>
+                <p>
+                    Where type is one of C++ types (such as int), and variableName is the name of the variable (such as <strong>x</strong> or <strong>myName</strong>). The <strong>equal sign</strong> is used to assign values to the variable.
+                </p>
+                <p>
+                    To create a variable that should store a number, look at the following example:
+                </p>
+                <div>
+                    <p>Example</p>
+                    <p>
+                        Create a variable called<strong> myNum</strong>  of type int and assign it the value<strong> 15</strong> :
+                    </p>
+                    <code>
+                        int myNum = 15; <br>
+                        cout << myNum; <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <p>You can also declare a variable without assigning the value, and assign the value later:</p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int myNum; <br>
+                        myNum = 15; <br>
+                        cout << myNum; <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <p>
+                    Note that if you assign a new value to an existing variable, it will overwrite the previous value:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int myNum = 15;  // myNum is 15 <br>
+                        myNum = 10;  // Now myNum is 10 <br>
+                        cout << myNum;  // Outputs 10   <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <h3>
+                    Other Types
+                </h3>
+                <p>
+                    A demonstration of other data types:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int myNum = 5;               // Integer (whole number without decimals) <br>
+                        double myFloatNum = 5.99;    // Floating point number (with decimals)   <br>
+                        char myLetter = 'D';         // Character <br>
+                        string myText = "Hello";     // String (text) <br>
+                        bool myBoolean = true;       // Boolean (true or false) <br>
+                    </code>
+                </div>
+            </section>
+            <section class="main-section" id="C++_User_Input">
+                <header>C++ User Input</header>
+                <h3>
+                    C++ User Input
+                </h3>
+                <p>
+                    You have already learned that cout is used to output (print) values. Now we will use cin to get user input.
+                </p>
+                <p>
+                    cin is a predefined variable that reads data from the keyboard with the extraction operator (>>).
+                </p>
+                <p>
+                    In the following example, the user can input a number, which is stored in the variable x. Then we print the value of x:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int x; <br>
+                        cout << "Type a number: "; // Type a number and press enter <br>
+                        cin >> x; // Get user input from the keyboard <br>
+                        cout << "Your number is: " << x; // Display the input value <br>
+                    </code>
+                    <button>
+                        Run example
+                    </button>
+                </div>
+                <h4>
+                    Good to Know !
+                </h4>
+                <div>
+                    
+                    <p>
+                        cout is pronounced "see-out". Used for output, and uses the insertion operator (<<)
+                    </p>
+                    <p>
+                        cin is pronounced "see-in". Used for input, and uses the extraction operator (>>)
+                    </p>
+                </div>
+                <h3>
+                    Creating a Simple Calculator
+                </h3>
+                <p>
+                    In this example, the user must input two numbers. Then we print the sum by calculating (adding) the two numbers:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int x, y; <br>
+                        int sum; <br>
+                        cout << "Type a number: "; <br>
+                        cin >> x; <br>
+                        cout << "Type another number: "; <br>
+                        cin >> y; <br>
+                        sum = x + y; <br>
+                        cout << "Sum is: " << sum; <br>
+                    </code>
+                    <button>
+                        Run example
+                    </button>
+                </div>
+                <p>
+                    There you go! You just built a basic calculator!
+                </p>
+            </section>
+            <section class="main-section" id="C++_Data_Types">
+                <header>C++ Data Types</header>
+                <h3>
+                    C++ Data Types
+                </h3>
+                <p>
+                    As explained in the Variables chapter, a variable in C++ must be a specified data type:
+                </p>
+                <div>
+                    <p>
+                        Example
+                    </p>
+                    <code>
+                        int myNum = 5;               // Integer (whole number) <br>
+                        float myFloatNum = 5.99;     // Floating point number <br>
+                        double myDoubleNum = 9.98;   // Floating point number <br>
+                        char myLetter = 'D';         // Character <br>
+                        bool myBoolean = true;       // Boolean <br>
+                        string myText = "Hello";     // String <br>
+                    </code>
+                    <button>
+                        Try it Yourself
+                    </button>
+                </div>
+                <table>
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Size</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>boolean</td>
+                        <td>1 byte</td>
+                        <td>Stores true or false values</td>
+                    </tr>
+                    <tr>
+                        <td>char</td>
+                        <td>1 byte</td>
+                        <td>Stores a single character/letter/number, or ASCII values</td>
+                    </tr>
+                    <tr>
+                        <td>int</td>
+                        <td>2 or<br> 4 bytes</td>
+                        <td>Stores whole numbers, without decimals</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td>4 bytes</td>
+                        <td>Stores fractional numbers, containing one or more decimals.<br> Sufficient for storing 7 decimal digits</td>
+                    </tr>
+                    <tr>
+                        <td>double</td>
+                        <td>8 bytes</td>
+                        <td>Stores fractional numbers, containing one or more decimals.<br> Sufficient for storing 15 decimal digits</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </body>
+
+</html>

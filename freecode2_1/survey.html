@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="survey.css">
+    </head>
+
+    <body>
+            <main>
+                
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+        <form id="survey-form">
+            <label id="name-label">Name</label><br>
+            <input type="text" id="name" required placeholder="Name"> <br>
+            <label id="email-label">Email</label><br>
+            <input type="email" id="email" required placeholder="Email"><br>
+            <label id="number-label">Age (optional)</label><br>
+            <input type="number" id="number" min="10" max="99" placeholder="Age"><br>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" value="definitely" name="names">Definitely<br>
+            <input type="radio" value="maybe" name="names">Maybe<br>
+            <input type="radio" value="notsure" name="names">Not sure<br>
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <select id="dropdown">
+                <option value="challenges">Challenges</option>
+                 <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="opensource">Open Source</option>
+            </select>
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" value="frontend">Front-end Projects<br>
+            <input type="checkbox" value="backend">Back-end Projects<br>
+            <input type="checkbox" value="datav">Data Visualization<br>
+            <input type="checkbox" value="challenges">Challenges<br>
+            <p>Any comments or suggestions?</p>
+            <textarea placeholder="Textarea" id="textarea"></textarea><br>
+            <button id="submit">Submit</button>
+        </form>
+
+        </main>
+    </body>
+
+</html>

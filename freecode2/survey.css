@@ -1,0 +1,111 @@
+body{
+  background: rgba(83, 85, 202, .9);
+  background: linear-gradient(0deg, rgba(253, 152, 202, 0.9) 0%, rgb(210, 2, 106) 100%);
+    
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+form {
+    background-color: #ffffff;
+    border-radius: 0rem;
+    width: 75%;
+    margin: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  #form-display{
+   padding: 35px;
+   font-size: 18px;
+   margin-left: 25px;
+  }
+  #display{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #dropdown {
+    display: block; 
+    width: 150px;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: rgb(64, 71, 197);
+    border: 1px solid #3c6a99;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+  }
+  
+
+  button {
+    width: 150px;
+    padding: 0.75rem;
+    background: rgb(64, 71, 197);
+    color: white;
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: #3c6a99;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  #name, #email, #number{
+    height: 35px;
+    width: 300px;
+    border: 0px;
+    border-bottom: solid 1px;
+    margin: 10px 0px 15px 0px;
+  }
+  
+  #textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 4px;
+    border: 2px solid;
+    margin: 10px 0px 15px 0px;
+    font-size: 18px;
+  }
+  #title, #description{
+    text-align: left;
+    margin-left: 55px;
+  }
+  button:hover{
+    background-color: #3c6a99;
+  }
+
+#butt{
+  width: 100%;
+  text-align: center;
+ 
+}
+#title{
+  padding-top: 25px;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 1050px) {
+  #display{
+   
+ 
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  #dropdown{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  #name, #email, #number{
+    width: 200px;
+  }
+  #textarea{
+    width: 200px;
+
+}}
+
+
+ 
+
+  
