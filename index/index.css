@@ -55,7 +55,7 @@ li a:hover {
 .footer {
   background-color: rgb(84, 75, 75);
     left: 0%;
-    bottom: 0;
+    bottom: 0px;
     text-align:center;
     height: 50px;
     position: relative;
