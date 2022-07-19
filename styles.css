@@ -175,12 +175,7 @@ img{
        
         transform:scale(1.1);
     }
-    #profile-links ul{
-        flex-direction: column;
-    }
-    #profile-links a{
-        padding: 20px;
-    }
+    
   }
   .project-tile{
     font-size: 25px;
@@ -188,8 +183,13 @@ img{
   #profile-links a:hover{
     color: bisque;
   }
-  @media screen (max-width:800px) {
-
+  @media  (max-width:1050px) {
+    #profile-links ul{
+        flex-direction: column;
+    }
+    #profile-links a{
+        padding: 20px;
+    }
     
   }
 
