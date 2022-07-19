@@ -10,8 +10,6 @@ body {
     width: 16%;
     position:fixed;
     top:50px; 
-    border-right:solid 1.5px;
-    border-color: #4d4e53; 
     display: flex;
     flex-direction: column;
     
@@ -24,12 +22,13 @@ body {
     color: #4d4e53;
     font-size: 1.3em;
     padding: 13px 0px 10px;
-   
+    border-top: solid 1.2px;
+    border-color: #4d4e53;
+     
 }
 
 #navbar li{
     list-style: none;
-    border-top:solid 1px;
     display: block;
 }
 
@@ -40,6 +39,7 @@ body {
   font-size: 2em;
   font-weight: thin;
   position: fixed;
+  padding-left: 5px;
 }
 
 header{
@@ -54,8 +54,8 @@ header{
   position: absolute;
   margin-left: 300px;
   padding: 30px;
-    
 }
+
 code{
     display: block;
     border-left: solid;
@@ -125,25 +125,22 @@ table{
   #main-doc{
     position: absolute;
     top:600px;
-    position: absolute;
-    margin-left: 0px;
-    padding: 0;
-    
+    margin-left: 0px;    
   }
   #navbar ul{
-    width: 80%;
+    width: 98%;
     position: absolute;
-    top: 0%;
     text-align: center;
     display: flex;
     flex-direction: column;
     top: 50px;
-    border-right: 0;
+    padding-left:0px;
   }
   #navbar header{
     position: absolute;
 
   }
+  
   
   }
   @media only screen and (max-height: 560px) {
@@ -159,10 +156,10 @@ table{
       position: absolute;
       margin-left: 0px;
       padding: 0;
-      
+
     }
     #navbar ul{
-      width: 80%;
+      width: 98%;
       position: absolute;
       top: 0%;
       text-align: center;
@@ -170,12 +167,14 @@ table{
       flex-direction: column;
       top: 50px;
       border-right: 0;
+      margin-left: -35px;
     }
     #navbar header{
       position: absolute;
   
     }
     
+
     }
 
 
